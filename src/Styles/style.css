@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: var(--primaryFont);
+}
+:root {
+  --headerBackground: #000;
+  --primaryFont: "Inter", sans-serif;
+}
+
+/* Navigation */
+.Navigation {
+  background-color: var(--headerBackground);
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.Navigation header {
+  padding: 15px 100px;
+  color: #fff;
+}
+.Navigation header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.Navigation header .container .smallLogo,
+.small,
+.responsiveNav {
+  display: none;
+}
+.Navigation header .container nav ul {
+  display: flex;
+  gap: 20px;
+}
+.Navigation header .container ul li {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 6px 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Navigation header .container ul li:nth-child(1) {
+  color: #f72;
+  border: 0.5px solid rgba(255, 119, 34, 0.358);
+  border-radius: 5px;
+}
+.Navigation header .container ul li:nth-child(1):hover {
+  color: rgba(255, 119, 34, 0.864);
+  border: 0.5px solid rgba(255, 119, 34, 0.399);
+}
+.Navigation header .container ul li:nth-child(2) {
+  color: #f4fdab;
+  border: 0.5px solid #f3fdab57;
+  border-radius: 5px;
+}
+.Navigation header .container nav ul li:nth-child(2):hover {
+  color: #f3fdabcb;
+  border: 0.5px solid #f3fdab4c;
+}
+.Navigation header .container ul li:nth-child(3) {
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.Navigation header .container ul li:nth-child(3):hover {
+  background-color: #dadada;
+}
+
+/* Hero */
+.Hero {
+  background-image: url("https://launch.apeterminal.io/static/media/homepage_bg_without.a8dc3b77683e3ca1dce7.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.Hero .container {
+  background-image: url("https://launch.apeterminal.io/static/media/cta-bg-heroes.0c69511374f591501977ec8c08be0b8c.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  animation: flying 5s ease-in-out infinite;
+  margin: auto;
+}
+
+@keyframes flying {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.Hero .container .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.Hero .container .inner h1 {
+  font-size: 114px;
+  line-height: 90px;
+  font-weight: 500;
+  letter-spacing: -7px;
+  text-align: center;
+  width: 600px;
+  margin-bottom: 20px;
+}
+.Hero .container .inner p {
+  text-align: center;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+/* Section One */
+.SectionOne {
+  background-image: url("https://launch.apeterminal.io/static/media/timer_background.e9b871518325c8a43203.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Responsiveness */
+
+/* Small laptop */
+@media screen and (max-width: 1024px) {
+  .Navigation header {
+    padding: 15px;
+  }
+  .Navigation header .container .bigLogo {
+    display: none;
+  }
+  .Navigation header .container .smallLogo {
+    display: block;
+  }
+  .Navigation header .container .small {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .Navigation header .container .small li {
+    display: flex;
+    align-items: center;
+    color: #000;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 6px 8px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    gap: 5px;
+  }
+  .Navigation header .container .small i {
+    font-size: 30px;
+  }
+  .Navigation header .container ul li {
+    display: none;
+  }
+
+  /* Define slideIn class */
+  .slideIn {
+    animation: slideInAnimation 0.5s forwards;
+    display: block;
+  }
+
+  @keyframes slideInAnimation {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .Navigation header .container .responsiveNav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+  }
+  .Navigation header .container .responsiveNav ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+    padding: 70px 0;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .Navigation header .container .responsiveNav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .Navigation header .container .responsiveNav li:nth-child(1) {
+    color: #000;
+    background-color: #fff;
+    border-radius: 15px;
+    border: none;
+    width: 70%;
+  }
+  .Navigation header .container .responsiveNav li:nth-child(2) {
+    color: #f72;
+    border: 0.5px solid rgba(255, 119, 34, 0.358);
+    border-radius: 15px;
+    width: 90%;
+  }
+  .Navigation header .container .responsiveNav li:nth-child(3) {
+    background-color: #000000;
+    color: #f4fdab;
+    border: 0.5px solid #f3fdab57;
+    border-radius: 15px;
+    width: 90%;
+  }
+
+  .Navigation header .container .responsiveNav .inner p {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .Hero .container .inner h1 {
+    font-size: 70px;
+  }
+  .Hero .container .inner p {
+    font-size: 15px;
+  }
+}
