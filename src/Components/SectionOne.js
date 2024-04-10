@@ -73,10 +73,7 @@ function SectionOne() {
       <div className="liveand">
         <h1>Live and Upcoming Launches</h1>
 
-        
         <div className="container">
-
-
           <div className="contain">
             <video
               autoPlay
@@ -108,7 +105,7 @@ function SectionOne() {
               style={{ height: "100%", width: "100%", objectFit: "cover" }}
             >
               <source
-                src="https://launchpad-bucket.s3.amazonaws.com/VID_20240409_200158_988.mp4"
+                src="https://launchpad-bucket.s3.amazonaws.com/VID_20240408_152330_396+(1).mp4"
                 type="video/mp4"
               />
             </video>
@@ -118,7 +115,7 @@ function SectionOne() {
                   src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
                   alt="profile"
                 />{" "}
-                <h4>Catamoto</h4>
+                <h4>Y8U AI</h4>
               </div>
             </div>
           </div>
@@ -131,7 +128,7 @@ function SectionOne() {
               style={{ height: "100%", width: "100%", objectFit: "cover" }}
             >
               <source
-                src="https://launchpad-bucket.s3.amazonaws.com/VID_20240409_200158_988.mp4"
+                src="https://launchpad-bucket.s3.amazonaws.com/VID_20240405_202315_590.mp4"
                 type="video/mp4"
               />
             </video>
@@ -141,12 +138,79 @@ function SectionOne() {
                   src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
                   alt="profile"
                 />{" "}
-                <h4>Catamoto</h4>
+                <h4>XCAD</h4>
               </div>
             </div>
           </div>
 
-          
+          <div className="contain">
+            <video
+              autoPlay
+              muted
+              loop
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            >
+              <source
+                src="https://launchpad-bucket.s3.amazonaws.com/VID_20240403_192302_043+(1).mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div className="into">
+              <div className="info">
+                <img
+                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
+                  alt="profile"
+                />{" "}
+                <h4>Next Gem AI</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="contain">
+            <video
+              autoPlay
+              muted
+              loop
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            >
+              <source
+                src="https://launchpad-bucket.s3.amazonaws.com/VID_20240326_201126_562+(1).mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div className="into">
+              <div className="info">
+                <img
+                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
+                  alt="profile"
+                />{" "}
+                <h4>Sharpe AI</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="contain">
+            <video
+              autoPlay
+              muted
+              loop
+              style={{ height: "14em", width: "100%", objectFit: "cover" }}
+            >
+              <source
+                src="https://launchpad-bucket.s3.amazonaws.com/VID_20240309_031317_941+(1).mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div className="into">
+              <div className="info">
+                <img
+                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
+                  alt="profile"
+                />{" "}
+                <h4>Ponder</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
