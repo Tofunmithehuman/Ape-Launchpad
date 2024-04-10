@@ -112,7 +112,7 @@ function SectionOne() {
             <div className="into">
               <div className="info">
                 <img
-                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
+                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(43).svg"
                   alt="profile"
                 />{" "}
                 <h4>Y8U AI</h4>
@@ -135,7 +135,7 @@ function SectionOne() {
             <div className="into">
               <div className="info">
                 <img
-                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
+                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(42).svg"
                   alt="profile"
                 />{" "}
                 <h4>XCAD</h4>

@@ -213,12 +213,14 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .SectionOne .liveand .container .contain {
     width: 400px;
     background-color: #000;
     color: #fff;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 .SectionOne .liveand .container .contain video {
     border-top-right-radius: 10px;
@@ -231,6 +233,7 @@
 .SectionOne .liveand .container .contain .into .info {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 /* Responsiveness */
 
@@ -359,9 +362,10 @@
         padding-top: 40px;
       }
       .Hero .container .inner h1 {
-        font-size: 80px;
+        font-size: 70px;
         font-weight: 650;
-        margin: 0;
+        margin: 30px 0 0;
+        line-height: 90%;
       }
       .Hero .container .inner p {
         font-size: 13px;
@@ -370,6 +374,10 @@
       }
       .SectionOne {
         margin-top: -270px;
+      }
+      .SectionOne .featuredLaunch h1 {
+        font-size: 25px;
+        font-weight: 550;
       }
       .SectionOne .featuredLaunch h1 {
         margin: 40px 0;
