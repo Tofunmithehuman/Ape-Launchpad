@@ -273,6 +273,88 @@
   border-radius: 15px;
   padding: 7px 10px;
 }
+
+/* Section Two */
+
+
+.SectionTwo {
+  background-color: #000;
+  margin-top: 900px;
+  color: #fff;
+  padding: 30px;
+}
+.SectionTwo .container h1 {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 550;
+  font-size: 35px;
+}
+.SectionTwo .container .content  {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.SectionTwo .container .content .contain {
+  max-width: 350px;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.SectionTwo .container .content .contain .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.SectionTwo .container .content .contain .header h3 {
+  text-align: center;
+}
+
+.SectionTwo .container .contain .table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 100px;
+}
+.SectionTwo .container .contain .table ul li {
+  margin-bottom: 40px;
+}
+
+.SectionTwo .container .contain button {
+  width: 100%;
+  margin: auto;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+}
+
+.SectionTwo .container .contain .icons {
+  padding-top: 30px;
+  display: flex;
+  gap: 15px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsiveness */
 
 /* Small laptop */
@@ -422,6 +504,9 @@
       }
       .SectionOne .container .inner .right {
         display: none;
+      }
+      .SectionTwo {
+        margin-top: 3800px;
       }
 }
 
