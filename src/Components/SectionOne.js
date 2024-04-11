@@ -94,6 +94,33 @@ function SectionOne() {
                 />{" "}
                 <h4>Catamoto</h4>
               </div>
+              <div className="interest">
+                <p>Web3</p>
+                <p>Meme</p>
+              </div>
+              <div className="content">
+                <ul>
+                  <li>Total Raise</li>
+                  <li>Ends in</li>
+                  <li>Sale Type</li>
+                  <li>Market Maker</li>
+                </ul>
+
+                <ul style={{textAlign: "right"}}>
+                  <li>$200,000</li>
+                  <li><span>1d 6h 16m </span></li>
+                  <li>Ape Launch</li>
+                  <li>TBA</li>
+                </ul>
+              </div>
+
+              <button>
+                Participte Now{" "}
+                <img
+                  src="https://launch.apeterminal.io/static/media/forward_icon.1c5e22e2fe28444d6fedddce7ec3b62b.svg"
+                  alt="icon"
+                />
+              </button>
             </div>
           </div>
 
@@ -117,6 +144,33 @@ function SectionOne() {
                 />{" "}
                 <h4>Y8U AI</h4>
               </div>
+              <div className="interest">
+                <p>Web3</p>
+                <p>Meme</p>
+              </div>
+              <div className="content">
+                <ul>
+                  <li>Total Raise</li>
+                  <li>Ends in</li>
+                  <li>Sale Type</li>
+                  <li>Market Maker</li>
+                </ul>
+
+                <ul style={{textAlign: "right"}}>
+                  <li>$200,000</li>
+                  <li><span>1d 6h 16m </span></li>
+                  <li>Ape Launch</li>
+                  <li>TBA</li>
+                </ul>
+              </div>
+
+              <button>
+                Participte Now{" "}
+                <img
+                  src="https://launch.apeterminal.io/static/media/forward_icon.1c5e22e2fe28444d6fedddce7ec3b62b.svg"
+                  alt="icon"
+                />
+              </button>
             </div>
           </div>
 
@@ -140,6 +194,33 @@ function SectionOne() {
                 />{" "}
                 <h4>XCAD</h4>
               </div>
+              <div className="interest">
+                <p>Web3</p>
+                <p>Meme</p>
+              </div>
+              <div className="content">
+                <ul>
+                  <li>Total Raise</li>
+                  <li>Ends in</li>
+                  <li>Sale Type</li>
+                  <li>Market Maker</li>
+                </ul>
+
+                <ul style={{textAlign: "right"}}>
+                  <li>$200,000</li>
+                  <li><span>1d 6h 16m </span></li>
+                  <li>Ape Launch</li>
+                  <li>TBA</li>
+                </ul>
+              </div>
+
+              <button>
+                Participte Now{" "}
+                <img
+                  src="https://launch.apeterminal.io/static/media/forward_icon.1c5e22e2fe28444d6fedddce7ec3b62b.svg"
+                  alt="icon"
+                />
+              </button>
             </div>
           </div>
 
@@ -158,11 +239,38 @@ function SectionOne() {
             <div className="into">
               <div className="info">
                 <img
-                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
+                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(41).svg"
                   alt="profile"
                 />{" "}
                 <h4>Next Gem AI</h4>
               </div>
+              <div className="interest">
+                <p>Web3</p>
+                <p>Meme</p>
+              </div>
+              <div className="content">
+                <ul>
+                  <li>Total Raise</li>
+                  <li>Ends in</li>
+                  <li>Sale Type</li>
+                  <li>Market Maker</li>
+                </ul>
+
+                <ul style={{textAlign: "right"}}>
+                  <li>$200,000</li>
+                  <li><span>1d 6h 16m </span></li>
+                  <li>Ape Launch</li>
+                  <li>TBA</li>
+                </ul>
+              </div>
+
+              <button>
+                Participte Now{" "}
+                <img
+                  src="https://launch.apeterminal.io/static/media/forward_icon.1c5e22e2fe28444d6fedddce7ec3b62b.svg"
+                  alt="icon"
+                />
+              </button>
             </div>
           </div>
 
@@ -181,11 +289,38 @@ function SectionOne() {
             <div className="into">
               <div className="info">
                 <img
-                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
+                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(37).svg"
                   alt="profile"
                 />{" "}
                 <h4>Sharpe AI</h4>
               </div>
+              <div className="interest">
+                <p>Web3</p>
+                <p>Meme</p>
+              </div>
+              <div className="content">
+                <ul>
+                  <li>Total Raise</li>
+                  <li>Ends in</li>
+                  <li>Sale Type</li>
+                  <li>Market Maker</li>
+                </ul>
+
+                <ul style={{textAlign: "right"}}>
+                  <li>$200,000</li>
+                  <li><span>1d 6h 16m </span></li>
+                  <li>Ape Launch</li>
+                  <li>TBA</li>
+                </ul>
+              </div>
+
+              <button>
+                Participte Now{" "}
+                <img
+                  src="https://launch.apeterminal.io/static/media/forward_icon.1c5e22e2fe28444d6fedddce7ec3b62b.svg"
+                  alt="icon"
+                />
+              </button>
             </div>
           </div>
 
@@ -204,11 +339,39 @@ function SectionOne() {
             <div className="into">
               <div className="info">
                 <img
-                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(44).svg"
+                  src="https://launchpad-bucket.s3.amazonaws.com/Icon+(34).svg"
                   alt="profile"
                 />{" "}
                 <h4>Ponder</h4>
               </div>
+              <div className="interest">
+                <p>Web3</p>
+                <p>Meme</p>
+              </div>
+
+              <div className="content">
+                <ul>
+                  <li>Total Raise</li>
+                  <li>Ends in</li>
+                  <li>Sale Type</li>
+                  <li>Market Maker</li>
+                </ul>
+
+                <ul style={{textAlign: "right"}}>
+                  <li>$200,000</li>
+                  <li><span>1d 6h 16m </span></li>
+                  <li>Ape Launch</li>
+                  <li>TBA</li>
+                </ul>
+              </div>
+
+              <button>
+                Participte Now{" "}
+                <img
+                  src="https://launch.apeterminal.io/static/media/forward_icon.1c5e22e2fe28444d6fedddce7ec3b62b.svg"
+                  alt="icon"
+                />
+              </button>
             </div>
           </div>
         </div>
