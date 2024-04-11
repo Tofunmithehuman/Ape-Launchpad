@@ -106,9 +106,11 @@ function SectionOne() {
                   <li>Market Maker</li>
                 </ul>
 
-                <ul style={{textAlign: "right"}}>
+                <ul style={{ textAlign: "right" }}>
                   <li>$200,000</li>
-                  <li><span>1d 6h 16m </span></li>
+                  <li>
+                    <span>1d 6h 16m </span>
+                  </li>
                   <li>Ape Launch</li>
                   <li>TBA</li>
                 </ul>
@@ -145,8 +147,9 @@ function SectionOne() {
                 <h4>Y8U AI</h4>
               </div>
               <div className="interest">
+                <p>AI</p>
                 <p>Web3</p>
-                <p>Meme</p>
+                <p>NFT</p>
               </div>
               <div className="content">
                 <ul>
@@ -156,9 +159,11 @@ function SectionOne() {
                   <li>Market Maker</li>
                 </ul>
 
-                <ul style={{textAlign: "right"}}>
-                  <li>$200,000</li>
-                  <li><span>1d 6h 16m </span></li>
+                <ul style={{ textAlign: "right" }}>
+                  <li>$100,000</li>
+                  <li>
+                    <span>4d 19h 16m </span>
+                  </li>
                   <li>Ape Launch</li>
                   <li>TBA</li>
                 </ul>
@@ -196,7 +201,7 @@ function SectionOne() {
               </div>
               <div className="interest">
                 <p>Web3</p>
-                <p>Meme</p>
+                <p>Fan Token</p>
               </div>
               <div className="content">
                 <ul>
@@ -206,9 +211,11 @@ function SectionOne() {
                   <li>Market Maker</li>
                 </ul>
 
-                <ul style={{textAlign: "right"}}>
-                  <li>$200,000</li>
-                  <li><span>1d 6h 16m </span></li>
+                <ul style={{ textAlign: "right" }}>
+                  <li>$100,000</li>
+                  <li>
+                    <span>1d 6h 16m </span>
+                  </li>
                   <li>Ape Launch</li>
                   <li>TBA</li>
                 </ul>
@@ -245,8 +252,8 @@ function SectionOne() {
                 <h4>Next Gem AI</h4>
               </div>
               <div className="interest">
+                <p>AI</p>
                 <p>Web3</p>
-                <p>Meme</p>
               </div>
               <div className="content">
                 <ul>
@@ -256,9 +263,11 @@ function SectionOne() {
                   <li>Market Maker</li>
                 </ul>
 
-                <ul style={{textAlign: "right"}}>
-                  <li>$200,000</li>
-                  <li><span>1d 6h 16m </span></li>
+                <ul style={{ textAlign: "right" }}>
+                  <li>$300,000</li>
+                  <li>
+                    <span>1d 6h 16m </span>
+                  </li>
                   <li>Ape Launch</li>
                   <li>TBA</li>
                 </ul>
@@ -295,8 +304,8 @@ function SectionOne() {
                 <h4>Sharpe AI</h4>
               </div>
               <div className="interest">
-                <p>Web3</p>
-                <p>Meme</p>
+                <p>AI</p>
+                <p>Super App</p>
               </div>
               <div className="content">
                 <ul>
@@ -306,9 +315,11 @@ function SectionOne() {
                   <li>Market Maker</li>
                 </ul>
 
-                <ul style={{textAlign: "right"}}>
-                  <li>$200,000</li>
-                  <li><span>1d 6h 16m </span></li>
+                <ul style={{ textAlign: "right" }}>
+                  <li>$100,000</li>
+                  <li>
+                    <span>4d 6h 16m </span>
+                  </li>
                   <li>Ape Launch</li>
                   <li>TBA</li>
                 </ul>
@@ -345,8 +356,8 @@ function SectionOne() {
                 <h4>Ponder</h4>
               </div>
               <div className="interest">
-                <p>Web3</p>
-                <p>Meme</p>
+                <p>EigenLayer</p>
+                <p>Restaking</p>
               </div>
 
               <div className="content">
@@ -357,9 +368,11 @@ function SectionOne() {
                   <li>Market Maker</li>
                 </ul>
 
-                <ul style={{textAlign: "right"}}>
+                <ul style={{ textAlign: "right" }}>
                   <li>$200,000</li>
-                  <li><span>1d 6h 16m </span></li>
+                  <li>
+                    <span>1d 6h 16m </span>
+                  </li>
                   <li>Ape Launch</li>
                   <li>TBA</li>
                 </ul>
